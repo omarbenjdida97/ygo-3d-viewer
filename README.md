@@ -13,7 +13,7 @@ This is still in progress (kind of). Mobile View optimized, let me know if there
 - Favorite cards you like and add them to your binder
 - Look up support cards related to the current selected card
 - Look up how to obtain any specific card (TCG only)
-- (WIP) A pack opening simualtor. This is still rough around the edges, I still need to work on the opening sequence itself and its animations, rarity colors, adding holo/foil effects and whatever other improvements. However, it is technically fully functional and any cards you roll will be added to your collections binder (seperate from your favorite cards binder). The chance to get specific cards should also be accurate.
+- (WIP) A pack opening simulator. This is still rough around the edges, I still need to work on the opening sequence itself and its animations, rarity colors, adding holo/foil effects and whatever other improvements. However, it is technically fully functional and any cards you roll will be added to your collections binder (seperate from your favorite cards binder). The chance to get specific cards should also be accurate.
 
 # 🛠️ Local Setup
 
