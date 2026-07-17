@@ -37,17 +37,8 @@ cd ygo-3d-viewer
 ```
 npm install
 ```
-3. Proxies
 
-if for whatever reason cards don't load for you, you might need to use a local proxy.
-
-just create a .env file in the root dir and include this line:
-
-```
-VITE_API_URL=https://db.ygoprodeck.com/api/v7
-```
-
-4. Start the server
+3. Start the server
 
 ```
 npm run dev
