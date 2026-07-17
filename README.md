@@ -1,32 +1,41 @@
-# React + TypeScript + Vite
+# Yu-Gi-Oh! 3D Card Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is still in progress, i'll implement mobile support eventually
 
-Currently, two official plugins are available:
+🛠️ Local Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Prerequisites
 
-## React Compiler
+Make sure you have the following installed:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Node.js (v18.x or higher)
 
-## Expanding the Oxlint configuration
+1. Clone the Repository
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Clone the project to your local PC:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+git clone https://github.com/omarbenjdida97/ygo-3d-viewer
+cd ygo-3d-viewer
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+2. Install Dependencies
+
+```
+npm install
+```
+3. Proxies
+
+if for whatever reason cards don't load for you, you might need to use a local proxy.
+
+just create a .env file in the root dir and include this line:
+
+```
+VITE_API_URL=https://db.ygoprodeck.com/api/v7
+```
+
+4. Start the server
+
+```
+npm run dev
+```
